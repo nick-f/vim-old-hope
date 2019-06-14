@@ -86,7 +86,7 @@ endif
 " Variables {{{
 let s:gFg = s:gVeryLightGrey
 let s:tFg = s:tVeryLightGrey
-let s:gBg = s:gBlack
+let s:gBg = "NONE"
 let s:tBg = s:tBlack
 " let s:gBg = s:gVeryDarkGrey
 " let s:tBg = s:tVeryDarkGrey
