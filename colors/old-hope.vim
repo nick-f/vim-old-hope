@@ -37,19 +37,19 @@ let s:gGreen           = "#78BD65"
 let s:gBlue            = "#4FB4D8"
 " * t_Co 256 (cterm)
 if s:tCol == 256
-  let s:tWhite         = 15
-  let s:tBlack         = 0
+  let s:tWhite         = 231
+  let s:tBlack         = 16
 
-  let s:tVeryLightGrey = 252
-  let s:tLightGrey     = 245
-  let s:tGrey          = 242
-  let s:tDarkGrey      = 238
-  let s:tVeryDarkGrey  = 234
-  let s:tRed           = 203 " 9, 197
-  let s:tOrange        = 202 " 166
-  let s:tYellow        = 221 " 222, 227
-  let s:tGreen         = 41  " 47
-  let s:tBlue          = 39  " 45
+  let s:tVeryLightGrey = 188
+  let s:tLightGrey     = 102
+  let s:tGrey          = 243 
+  let s:tDarkGrey      = 59
+  let s:tVeryDarkGrey  = 16
+  let s:tRed           = 203
+  let s:tOrange        = 202
+  let s:tYellow        = 221
+  let s:tGreen         = 107
+  let s:tBlue          = 39
 " * t_Co 16
 elseif s:tCol == 16
   let s:tWhite         = 15
